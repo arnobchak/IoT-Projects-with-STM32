@@ -31,7 +31,7 @@ int main(void)
         if (buttonState == GPIO_PIN_RESET && previousState == GPIO_PIN_SET)
         {
             HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_14); // Toggle LED
-            HAL_Delay(1000); // Debounce delay
+            HAL_Delay(200); // Debounce delay
         }
 
         // Update previous state
