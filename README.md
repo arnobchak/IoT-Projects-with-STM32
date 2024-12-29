@@ -77,7 +77,7 @@ IoT-Projects-with-STM32/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/IoT-Projects-with-STM32.git
+   git clone https://github.com/arnobchak/IoT-Projects-with-STM32.git
    ```
 
 2. Set up your STM32 development environment using STM32CubeMX and Keil.
